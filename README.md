@@ -16,7 +16,7 @@ PLAY UNITY:
 
   Foram necessários X scripts: MoveFundo, ControlaJogadorMouseEsquerdo, GeradorInimigos, .
 
-## MoveFundo;
+## MoveFundo
   O script foi feito de forma simples para criar o efeito de rolagem de cenário, utilizando 1 variável principal para guardar a referência do componente de renderização gráfica:
 
 ```csharp
@@ -24,7 +24,7 @@ SpriteRenderer grafico;
 ```
 
 
-## ControlaJogadorMouseEsquerdo;
+## ControlaJogadorMouseEsquerdo
   Para fazer o jogador controlar o movimento com o clique do mouse e dar ao personagem o comportamento clássico de um jogo estilo Flappy Bird, o script utiliza uma lógica focada em gravidade e impulsos verticais.
 O script conta com 3 variáveis principais para gerenciar o estado e a física do jogador:
 
@@ -53,6 +53,19 @@ void Update ()
     corpoJogador.AddForce(forcaImpulso); 
   } 
 } 
+```
+
+
+## GeradorInimigos
+  O script conta com 6 variáveis principais para configurar o comportamento de geração e os limites do cenário:
+
+```csharp
+  public GameObject inimigoPrefab; 
+public float intervalo = 3f; 
+public float limiteX = 8f; 
+public float limiteY = 4f; 
+public float velocidade = 3f; 
+public float limiteDestruicaoX = -12f;
 ```
 
   No método Start(), o script utiliza a função InvokeRepeating("GerarInimigo", 0f, intervalo) para invocar a criação de inimigos de forma contínua e temporizada assim que o jogo começa. 
