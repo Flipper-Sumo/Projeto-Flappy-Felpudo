@@ -86,7 +86,7 @@ if (spriteRenderer != null)
 }
 ```
 <p align="center">
-  <img src="Captura de tela 2026-11-09 162040.jpeg" width="700">
+  <img src="Captura de tela 2026-11-09 162040.png" width="700">
 </p>
 
 
