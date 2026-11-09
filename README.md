@@ -112,3 +112,7 @@ GameObject bala = Instantiate(
 ```
 
 Por fim, logo após instanciar o objeto, o script obtém o componente de controle do projétil (scriptBala = bala.GetComponent<Bala>();) e chama o método de disparo passando a direção desejada (scriptBala.Disparar(Vector2.right);), desacoplando a lógica de movimento do projétil do próprio atirador.
+
+<p align="center">
+  <img src="Captura de tela 2026-11-09 162442.png" width="700">
+</p>
