@@ -85,7 +85,9 @@ if (spriteRenderer != null)
     spriteRenderer.color = corOriginal;
 }
 ```
-
+<p align="center">
+  <img src="Captura de tela 2026-11-09 162040.jpeg" width="700">
+</p>
 
 
 # Atirador
