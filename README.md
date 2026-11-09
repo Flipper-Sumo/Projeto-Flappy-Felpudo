@@ -85,7 +85,7 @@ if (spriteRenderer != null)
     spriteRenderer.color = corOriginal;
 }
 ```
-![Uploading image.png…]()
+
 
 
 # Atirador
