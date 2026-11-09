@@ -85,6 +85,8 @@ if (spriteRenderer != null)
     spriteRenderer.color = corOriginal;
 }
 ```
+![Uploading image.png…]()
+
 
 # Atirador
 Para gerenciar a cadência de tiros e instanciar novos projéteis a partir de um ponto específico do cenário, esse script conta com 4 variáveis principais para configurar o prefab do projétil, o ponto de origem e o controle de tempo entre os disparos:
