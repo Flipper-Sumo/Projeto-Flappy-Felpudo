@@ -2,7 +2,7 @@
 3º Projeto Parcial da matéria Programação para Jogos, para o curso de Jogos Digitais da Universidade do Estado da Bahia, desenvolvidos por Jonatas Argolo e Isabela Coelho.
 
 PLAY UNITY:
-https://play.unity.com/pt/upload
+https://play.unity.com/pt/games/21066b99-8265-4764-8590-fb9562a92d01/felpudo-flapbird
 
 ### RESUMO:
   Nosso projeto foi desenvolvido na Unity 6 utilizando C#. Na primeira fase do jogo, utilizamos scripts para movimentar o Felpudo no estilo clássico de flappy birds e para fazer um gerador de inimigos automático. Após desviar de 10 inimigos, o jogador vai para a fase do Boss, onde os scripts liberam para o jogador a habilidade de soltar projéteis contínuos, e, ao contabilizar 25 acertos dentro de 15 segundos, o boss, que também atira projéteis, é derrotado. Por fim, programamos uma animação de Felpudo e Fofucha se encontrando e fizemos o efeito de corações usando o Particle System. Mas, os personagens são separados novamente, quando o boss, que fingiu estar morto, rapta Fofucha novamente.
